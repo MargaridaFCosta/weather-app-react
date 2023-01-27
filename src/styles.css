@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto", sans-serif;
+  max-width: 800px;
+  max-height: 800px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 2px 15px 15px 15px;
+  padding: 15px;
+  background-color: rgba(10, 97, 140, 0.6);
+  color: white;
+  font-size: light;
+  border-radius: 5px;
+}
+
+.row {
+  text-align: center;
+}
+
+.card {
+  margin: 30px 30px 5px;
+  background: rgba(177, 213, 232, 0.6);
+  padding: 30px;
+}
+

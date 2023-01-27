@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import App from "./App";
+import Footer from "./Footer";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <h1>Wheater App</h1>
+    <div className="card">
+      <div className="card-body">
+        <App />
+      </div>
+    </div>
+    <Footer />
   </React.StrictMode>
 );
 
