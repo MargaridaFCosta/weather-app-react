@@ -16,10 +16,6 @@ h1 {
   border-radius: 5px;
 }
 
-.row {
-  text-align: center;
-}
-
 .card {
   margin: 30px 30px 5px;
   background: rgba(177, 213, 232, 0.6);

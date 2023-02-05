@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+import WeatherInfo from "./WeatherInfo";
+
 
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
@@ -41,18 +43,11 @@ export default function Weather(props) {
             placeholder="Enter a city..."
             onChange={updateCity}
           />
-          <input type="submit" value="Search" />
+          <input type="submit" value="Search"/>
         </form>
-        <h1>{weather.city}</h1>
-        <ul>
-          <li> Temperature: {Math.round(weather.temperature)} ºC </li>
-          <li> Description: {weather.description} </li>
-          <li> Humidity: {Math.round(weather.humidity)} % </li>
-          <li> Wind: {Math.round(weather.wind)} Km/h </li>
-          <li> <img alt="icon" src={weather.icon} /> </li>
-        </ul>
+        <WeatherInfo data={weather} />
       </div>
-    );
+    );                              
   } else {
     search();
     return "Loading...";
