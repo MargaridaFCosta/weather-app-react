@@ -1,12 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
-import Footer from "./Footer";
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <h1>Wheater App</h1>
@@ -15,7 +14,7 @@ root.render(
         <App />
       </div>
     </div>
-    <Footer />
+   
   </React.StrictMode>
 );
 
