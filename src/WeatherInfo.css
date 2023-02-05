@@ -14,3 +14,9 @@ font-weight: bold;
     top: -10px;
     left: -5px;
 }
+
+.WeatherInfo .icon {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}

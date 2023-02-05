@@ -16,7 +16,7 @@ if (minutes < 10) {
  minutes = `0${minutes}`;
 }
     return (
-      <div className="FormattedDate">
+      <div className="FormattedDate text-center">
             {day}, {monthDay} {month}, {hours}:{minutes}
       </div>
     );

@@ -35,6 +35,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       icon: response.data.condition.icon_url,
       city: response.data.city,
+      feels: response.data.temperature.feels_like,
     });
   }
 
