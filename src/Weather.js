@@ -24,8 +24,10 @@ export default function Weather(props) {
   }
 
   function showWeather(response) {
+    console.log(response.data);
     setWeather({
       ready: true,
+      date: new Date(response.data.time * 1000),
       temperature: response.data.temperature.current,
       description: response.data.condition.description,
       humidity: response.data.temperature.humidity,
