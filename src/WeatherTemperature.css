@@ -1,0 +1,7 @@
+.WeatherTemperature a {
+    color:rgba(10, 97, 140, 0.6);
+    text-decoration: none;
+}
+.WeatherTemperature a:hover  {
+    color:whitesmoke;
+}

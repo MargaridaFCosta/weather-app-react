@@ -4,6 +4,7 @@ body {
   max-height: 800px;
   padding: 10px;
   margin: 0 auto;
+  background: linear-gradient(90deg, rgb(166, 148, 87) 0%, rgb(139, 102, 241) 100%);
 }
 
 h1 {

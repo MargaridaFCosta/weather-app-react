@@ -1,5 +1,10 @@
 
 .Weather .search-button {
-border-radius: 5px;
+background-color: rgba(10, 97, 140, 0.6);
+border:2px solid #A4AEDC;
 }
 
+.Weather .search-button:hover {
+    background-color: whitesmoke;
+    color: rgba(10, 97, 140, 0.6);
+}

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import App from "./App";
+import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -14,7 +15,7 @@ root.render(
         <App />
       </div>
     </div>
-    <footer>
+    <footer className="text-center mt-3">
       This project was coded by{" "}
       <a
         href="https://bejewelled-selkie-c4b494.netlify.app/"

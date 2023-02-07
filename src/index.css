@@ -1,0 +1,8 @@
+footer a {
+    text-decoration: none;
+    color:#A4AEDC;
+}
+
+footer a:hover {
+    color:whitesmoke;
+}

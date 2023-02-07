@@ -72,7 +72,7 @@ export default function Weather(props) {
         wrapperStyle={{}}
         wrapperClass="MagnifyingGlass-wrapper"
         glassColor="#c0efff"
-        color="#e15b64"
+        color="#8e6cdd"
       />
     );
   }

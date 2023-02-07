@@ -1,22 +1,26 @@
-.WeatherInfo ul li{
-padding: 0;
-margin:0;
-list-style: none;
+.WeatherInfo h2 {
+  font-size: 34px;
+}
+
+.WeatherInfo ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .WeatherInfo .temperature {
-font-size: 30px;
-font-weight: bold;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .WeatherInfo .unit {
-    position: relative;
-    top: -10px;
-    left: -5px;
+  position: relative;
+  top: -10px;
+  left: -5px;
 }
 
 .WeatherInfo .icon {
-    margin: 0 auto;
-    text-align: center;
-    display: block;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
 }
