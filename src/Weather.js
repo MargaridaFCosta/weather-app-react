@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import { MagnifyingGlass } from "react-loader-spinner";
 import "./Weather.css";
 
@@ -25,10 +26,10 @@ export default function Weather(props) {
   }
 
   function showWeather(response) {
-    console.log(response.data);
     setWeather({
       ready: true,
       date: new Date(response.data.time * 1000),
+      coord: response.data.coordinates,
       temperature: response.data.temperature.current,
       description: response.data.condition.description,
       humidity: response.data.temperature.humidity,
@@ -59,6 +60,7 @@ export default function Weather(props) {
               </div>
         </form>
         <WeatherInfo data={weather} />
+        <WeatherForecast coords={weather.coord} />
       </div>
     );                              
   } else {
