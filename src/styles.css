@@ -23,3 +23,13 @@ h1 {
   padding: 30px;
 }
 
+@media (max-width: 900px) {
+  .card {
+  padding:4px;
+  margin: 0px;
+  text-align: center;
+  }
+  .container {
+    padding:0;
+  }
+}

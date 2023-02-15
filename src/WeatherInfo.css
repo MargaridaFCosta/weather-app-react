@@ -24,3 +24,11 @@
   text-align: center;
   display: block;
 }
+
+@media (max-width: 900px) {
+  .WeatherInfo ul li {
+  font-size: 15px;
+  text-align: center;
+
+  }
+}
