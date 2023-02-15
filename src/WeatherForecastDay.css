@@ -1,0 +1,10 @@
+.WeatherForecastDay .forecast-icon {
+width: 60px;
+text-align: center;
+display: block;
+margin: 0 auto;
+}
+
+.WeatherForecastDay .temperature {
+    text-align: center;
+}
