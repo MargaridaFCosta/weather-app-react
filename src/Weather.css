@@ -8,3 +8,11 @@ border:2px solid #A4AEDC;
     background-color: whitesmoke;
     color: rgba(10, 97, 140, 0.6);
 }
+
+@media (max-width: 900px) {
+
+.Weather .search-button {
+    font-size: 15px;
+    margin-top: 6px;
+}
+}
